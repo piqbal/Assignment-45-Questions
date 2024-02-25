@@ -1,6 +1,6 @@
-// Question-19:  Dinner Guests: Working with one of the programs from Exercises 14 through 18, print a message indicating the number of people you are inviting to dinner.
-let newFriends = ["Ali", "Faisal", "Zamir", "Asim"];
-for (let i = 0; i < newFriends.length; i++) {
-    console.log(` Hello ${newFriends[i]}, i invite you to dinner with me tonight.`);
+// Question-19: Dinner Guests: Working with one of the programs from Exercises 14 through 18, print a message indicating the number of people you are inviting to dinner.
+const friends = ["Ali", "Waleed", "Toseef"];
+for (let i = 0; i < friends.length; i++) {
+    console.log(`${friends[i]}You are still invited for dinner tonight with me.`);
 }
 export {};
